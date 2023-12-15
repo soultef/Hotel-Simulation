@@ -1,1 +1,3 @@
-# Hotel-Simulation
+#Hotel Simulation
+A hotel is simulated by using threads and semaphores to model customer and employee behavior. 
+Requirement: A hotel has two front desk employee to register customers/guests and two bellhops to handle bags of customers. The front desk employee will find an available room and assign it to the customer. A guest get a room number form front desk employee after registeration. If the guest has less than 3 bags, the guest proceeds directly to his/her room. Otherwise, the guest visits the bellhop to drop off the bags to their room. The guest will later meet the bellhop in the room to get the bags, at which time a tip is given.
